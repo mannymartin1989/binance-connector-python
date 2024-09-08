@@ -2,7 +2,7 @@ from binance.api import API
 
 
 class Spot(API):
-    def __init__(self, api_key=None, api_secret=None, **kwargs):
+    def __init__(self, api_key=vfXafA5WqmBzQIXcVBFKHFPMpwXGsHBUkP1rKA9gAyCKbQZrnj1sx58cGrUrPgpg, api_secret=nkyt96RItItGqZO67tIokcfu1oWmMAQPq0pOCQG9PGqcWrBYxWnGYqFufONOXspl, **kwargs):
         if "base_url" not in kwargs:
             kwargs["base_url"] = "https://api.binance.com"
         super().__init__(api_key, api_secret, **kwargs)
